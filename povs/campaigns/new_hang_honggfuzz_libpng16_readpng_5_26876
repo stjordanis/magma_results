@@ -1,0 +1,480 @@
+=====================================================================
+TIME: 2019-10-31.21:38:57
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f47d021c187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 5914
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x00005569d18a4cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005569d188e77e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005569d18819e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005569d1882312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f47d01feb97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x00005569d18816aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-10-31.22:17:52
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f7752bf1187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 9279
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x0000562780a04cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005627809ee77e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005627809e19e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005627809e2312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f7752bd3b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x00005627809e16aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-10-31.22:46:03
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7faedf8cf187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 18741
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x00005625cd768cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005625cd75277e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005625cd7459e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005625cd746312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007faedf8b1b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x00005625cd7456aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-10-31.22:51:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7fc9838e4187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 11702
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x0000565086a47cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000565086a3177e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000565086a249e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000565086a25312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007fc9838c6b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x0000565086a246aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.02:41:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7eff9f62f187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 3756
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x000055a25c74ecae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055a25c73877e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055a25c72b9e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055a25c72c312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007eff9f611b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055a25c72b6aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.03:18:58
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f3969d1c187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 1762
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x000055e660a42cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055e660a2c77e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055e660a1f9e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055e660a20312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f3969cfeb97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055e660a1f6aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.06:41:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f8b6a5b9187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 7530
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x0000555af0172cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000555af015c77e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000555af014f9e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000555af0150312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f8b6a59bb97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x0000555af014f6aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.06:56:31
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f3a5a509187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 32145
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x000055f1a2047cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055f1a203177e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055f1a20249e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055f1a2025312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f3a5a4ebb97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055f1a20246aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.07:30:11
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f8d5c3f9187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 29128
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x000055bbf3324cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055bbf330e77e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055bbf33019e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055bbf3302312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f8d5c3dbb97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055bbf33016aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.08:29:53
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f55726e3187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 20147
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x000055d2d2eb2cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055d2d2e9c77e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055d2d2e8f9e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055d2d2e90312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f55726c5b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055d2d2e8f6aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.08:30:27
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f1cbdd3e187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 22191
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x0000556fad310cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000556fad2fa77e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000556fad2ed9e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000556fad2ee312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f1cbdd20b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x0000556fad2ed6aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.08:36:56
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7fae73625187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 13232
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x000055ed008f7cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055ed008e177e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055ed008d49e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055ed008d5312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007fae73607b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055ed008d46aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.09:00:10
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7fcbc1726187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 489
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x0000560a71966cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000560a7195077e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000560a719439e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x0000560a71944312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007fcbc1708b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x0000560a719436aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.09:28:45
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7fbfd3384187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 6676
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x000055c3ea1a7cae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055c3ea19177e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055c3ea1849e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055c3ea185312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007fbfd3366b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055c3ea1846aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.12:45:44
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f7eee217187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 31902
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x000055745d44fcae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055745d43977e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055745d42c9e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x000055745d42d312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f7eee1f9b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055745d42c6aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.13:00:12
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/findings/crashes/SIGSEGV.PC.7f2d8db8e187.STACK.214ef5fa6.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 17841
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000214ef5fa6
+STACK:
+ <0x00005580828eccae> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005580828d677e> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005580828c99e2> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00005580828ca312> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+ <0x00007f2d8db70b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x00005580828c96aa> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libpng16_readpng_0_89503/bin/readpng]
+=====================================================================

@@ -1,0 +1,403 @@
+=====================================================================
+TIME: 2019-11-01.15:38:51
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7f0eb7796187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 10180
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x0000555b371f4da8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000555b371fc195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000555b371fe89a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000555b371be107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000555b371c4432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007f0eb7778b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x0000555b371b941a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.18:54:48
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7f84312a5187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 20918
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x0000564fc4e6fda8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000564fc4e77195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000564fc4e7989a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000564fc4e39107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000564fc4e3f432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007f8431287b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x0000564fc4e3441a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.19:39:33
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7f8a97536187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 20309
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x00005622083d8da8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00005622083e0195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00005622083e289a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00005622083a2107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00005622083a8432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007f8a97518b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000056220839d41a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.19:45:45
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7f73bee46187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 22833
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x000055daf687cda8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055daf6884195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055daf688689a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055daf6846107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055daf684c432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007f73bee28b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055daf684141a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.20:35:05
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7f76f276b187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 30512
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x000055f2ac641da8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055f2ac649195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055f2ac64b89a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055f2ac60b107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055f2ac611432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007f76f274db97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055f2ac60641a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.22:03:53
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7f47e6d9b187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 30661
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x000055c8f438bda8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055c8f4393195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055c8f439589a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055c8f4355107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055c8f435b432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007f47e6d7db97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055c8f435041a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.22:33:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7f45e8fd6187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 16171
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x000055dfbf2d3da8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055dfbf2db195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055dfbf2dd89a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055dfbf29d107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055dfbf2a3432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007f45e8fb8b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055dfbf29841a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-01.22:51:39
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7ff722900187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 9347
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x000055a4e086eda8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055a4e0876195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055a4e087889a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055a4e0838107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055a4e083e432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007ff7228e2b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055a4e083341a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-02.01:43:56
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7f0de3237187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 5526
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x000055b8a16d8da8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055b8a16e0195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055b8a16e289a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055b8a16a2107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055b8a16a8432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007f0de3219b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055b8a169d41a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-02.05:09:39
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7fec560cd187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 16589
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x000055c16119bda8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055c1611a3195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055c1611a589a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055c161165107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055c16116b432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007fec560afb97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055c16116041a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-02.06:58:59
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7ff41c5c3187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 6527
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x000056352c027da8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000056352c02f195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000056352c03189a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000056352bff1107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000056352bff7432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007ff41c5a5b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000056352bfec41a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-02.09:32:14
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7f15afdf5187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 24472
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x0000564e4d287da8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000564e4d28f195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000564e4d29189a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000564e4d251107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x0000564e4d257432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007f15afdd7b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x0000564e4d24c41a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
+=====================================================================
+TIME: 2019-11-02.11:05:11
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 0 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod: 
+ fuzzTarget   : /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint --valid --oldxml10 --push --memory ___FILE___ 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/findings/crashes/SIGSEGV.PC.7ff80f4a1187.STACK.fc55ea0ba.CODE.0.ADDR.(nil).INSTR.cmp____$0xfffffffffffff001,%rax.fuzz
+PID: 8112
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmp____$0xfffffffffffff001,%rax
+STACK HASH: 0000000fc55ea0ba
+STACK:
+ <0x000055693e3eada8> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055693e3f2195> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055693e3f489a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055693e3b4107> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x000055693e3ba432> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+ <0x00007ff80f483b97> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x000055693e3af41a> [[UNKNOWN]():0 at /root/campaigns/honggfuzz/honggfuzzFuzzer_libxml2_xmllint_2_24912/bin/xmllint]
+=====================================================================
